@@ -16,6 +16,14 @@
 
 ## Approach schematic
 <img src="./images/pipelineSchematic.png" alt="d" width="1000"/>
+<img src="./images/stacking.png" alt="d" width="1000"/>
+
+## Experiment (best performance)
+- We used **DeepLabV3Plus** and **FPN** for the 3-class segmentation.
+- Trained **DeepLabV3Plus**, **FPN**, and **LinkNet** separately for the Traversable class segmentation.
+- We experimented with **weighted averaging** and **stacking ensembling** techniques to combine the predictions of the sub-models.
+- **DeepLabV3Plus** and **FPN**  were implemented as meta-learners in stacking.
+- **Tversky loss**, **Focal Tversky loss**, and **Dice loss** functions were tried in both the 3-class segmentation, base learner, and meta-learner network of stacking ensembles. 
 
 ## Results
 <img src="./images/observations.png" alt="d" width="400"/>
