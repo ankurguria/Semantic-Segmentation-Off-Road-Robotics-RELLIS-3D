@@ -5,7 +5,7 @@
 ## Author
 - [Ankur Guria](https://www.linkedin.com/in/ankurguria/)
 
-#### [Detailed REPORT of out project](https://github.com/ankurguria/Semantic-Segmentation-Off-Road-Robotics-RELLIS-3D/blob/main/Project%20Report%20ECS%20412%20(Ankur_Guria_17039).pdf)
+#### [Detailed REPORT of out project](https://github.com/ankurguria/Semantic-Segmentation-Off-Road-Robotics-RELLIS-3D/blob/main/Project%20Report.pdf)
 
 ## Objective
    In this project, we have tried to perform semantic segmentation i.e. pixel-wise classification of a digital image to partition it into multiple segments, of a multimodal dataset collected in an off-road environment, RELLIS-3D, which contains annotations for 13,556 LiDAR scans and 6,235 images. We have used the images only. The data was collected on the Rellis Campus of Texas A&M University. It comprises 20 classes viz. sky, grass, tree, bush, concrete, mud, person, puddle, rubble, barrier, log, fence, vehicle, object, pole, water, asphalt, and building.
